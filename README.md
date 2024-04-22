@@ -67,7 +67,7 @@ if __name__ == "__main__":
 ```
 
 ***
-### 1. De los retos anteriores selecione 3 funciones y escribalas en forma de lambdas.
+## 1. De los retos anteriores selecione 3 funciones y escribalas en forma de lambdas.
 #### Funcion 1 : Reto 6 (Carne)
 #### Original
 ```python
@@ -135,7 +135,7 @@ if __name__ == "__main__":
     print("El valor de su prestamo después de ", n, "meses será de ", valor_final)
 ```
 ***
-### 2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
+## 2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
 #### Funcion 1 : Reto 6 (Promedio)
 #### Original
 ```python
@@ -214,7 +214,7 @@ def ordenar(*args):
     numeros = list(args)
     return numeros.sort
 ```
-### 3. Escriba una función recursiva para calcular la operación de la potencia.
+## 3. Escriba una función recursiva para calcular la operación de la potencia.
 ```python
 def potencia(a: int, b:int):
     if b == 0: # Todo número elevado a 0 da 1
@@ -223,7 +223,7 @@ def potencia(a: int, b:int):
         return a * potencia(a, b-1) # a**b = a * a**(b-1)
 ```
 ***
-### 4. Pruebas de Fibonacci con time
+## 4. Pruebas de Fibonacci con time
 ```python
 import time 
 
@@ -273,8 +273,8 @@ if __name__ == "__main__":
 ```
 Cuando n es 35, la diferencia de tiempo es casi de 1, por lo que diría que es significativa
 ***
-#### StackOverflow
+## StackOverflow
 ![Imagen](https://i.ibb.co/6msmVMH/Captura-de-pantalla-2024-04-22-164831.png)
 ***
-#### Linkedin
+## Linkedin
 Link: https://www.linkedin.com/in/juliangustin/
